@@ -1,0 +1,88 @@
+Oefening 1_2
+abs(21-25)
+14.99+27.95+19.83
+20*15
+2**10
+min(3,1,8,-2,5,-3,0)
+3 == 4-2
+17//5 == 3
+284 % 2 == 0
+
+s1 = 'good'; s2 = 'bad'; s3 = 'silly';
+s1[0]
+'g'
+
+s = 'abcdefgh'
+
+print(s[0]);
+print(s[2]);
+print(s[-3]);
+print(s[-1]);
+
+Practice Exercise 1_2 (strings)
+Schrijf en evalueer Python expressies die de volgende vragen beantwoorden:
+a.	Hoeveel letters zijn er in 'Supercalifragilisticexpialidocious'?
+Len('Supercalifragilisticexpialidocious')
+b.	Komt in 'Supercalifragilisticexpialidocious' de tekst 'ice' voor?
+woord.find('ice')
+c.	Is het woord 'Antidisestablishmentarianism' langer dan 'Honorificabilitudinitatibus'?
+len('Antidisestablishmentarianism') > len('Honorificabilitudinitatibus')
+d. Welke componist komt in alfabetische volgorde het eerst: 'Berlioz', 'Borodin', 'Brian',
+'Bartok', 'Bellini', 'Buxtehude', 'Bernstein'? Welke het laatst?
+voorraad = ['Berlioz', 'Borodin', 'Brian',
+'Bartok', 'Bellini', 'Buxtehude', 'Bernstein'];
+voorraad.sort();
+print (voorraad);
+
+Practice Exercise 1_3 (statements)
+
+Schrijf Python statements die het volgende doen:
+1.	Ken de waarde 6 toe aan variabele a, en waarde 7 aan variabele b.
+     a = 6; b = 7;
+2.	Ken aan variabele c als waarde het gemiddelde van a en b toe.
+ c = (a+b)/2;
+3.	Ken aan variabele inventaris de een lijst van strings toe: ‘papier’, ‘nietjes’, en ‘pennen’.
+inventaris = ('papier', 'nietjes','pennen');
+4.	Ken aan variabelen voornaam, tussenvoegsel en achternaam je eigen naamgegevens toe.
+voornaam = ('Julian');
+tussenvoegsel = ('');
+achternaam = ('Buursink');
+5. Ken aan variabele mijnnaam de variabelen van opdracht 4 (met spaties er tussen) toe.
+mijnNaam = (voornaam + ' ' + tussenvoegsel + achternaam);
+
+
+Practice Exercise 1_4 (boolean expressions)
+
+Schrijf booleaanse expressies die van de variabelen van Practice Exercise 1_3 evalueren of:
+1.	6.75 groter is dan a en kleiner b.
+print(6.75 > a and 6.75 < b)
+2.	de lengte van inventaris meer dan 5 keer zo groot is als de lengte van variabele mijnnaam.
+len(inventaris) > 5*len(mijnNaam)
+3. de lijst inventaris leeg is, of juist meer dan 10 items bevat.
+len(inventaris) == 0 or len(inventaris) > 10
+
+
+Practice Exercise 1_5 (lists)
+
+We gaan een lijst bijhouden met je favoriete artiesten. We gaan de lijst eerst creëren met 1 artiest en
+dan uitbreiden. Schrijf per stap een expressie om:
+1.	een nieuwe list met 1 artiest aan te maken met de naam favorieten.
+favorieten = ['deadmau5']
+2.	de lijst uit te breiden met een tweede artiest.
+favorieten.append('kendrick lamar')
+3.	de tweede artiest te vervangen door een andere naam.
+favorieten.pop(1)
+favorieten.append('Post Malone')
+
+
+Practice Exercise 1_6 (lists)
+
+Het bereik van een lijst is het verschil tussen het grootste en het kleinste getal. 
+Schrijf een Python expressie die het bereik van een lijst berekent. 
+Als bijvoorbeeld variabele list bestaat uit de getallen 3,
+7, -2 en 12, dan moet de expressie evalueren naar 14 (verschil tussen 12 en -2). Zorg dat de expressie
+altijd werkt, ook al bestaat de lijst uit andere waarden!
+
+lijst = [3,7,-2,12]
+abs(min(lijst)-max(lijst))
+
