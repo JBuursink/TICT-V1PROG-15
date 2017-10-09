@@ -1,4 +1,3 @@
-uurloon = eval(input('Wat is je uurloon: '))
-uren = eval(input('Hoeveel uren heb je gewerkt in de maand: '))
-salaris = str(uurloon * uren)
-print('Met ' + str(uren) + ' uur werken heb je ' + salaris + ' euro verdient' )
+print(0==(1==2))
+print(2+(3==4)+5==7)
+print((1<-1)==(3>4))
